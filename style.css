@@ -1,0 +1,55 @@
+body {
+    background: rgb(168, 166, 166);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    color: rgb(173, 114, 4);
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.nav {
+    background-color: rgb(5, 119, 172);
+    
+}
+
+ul li :hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.nav ul{
+    transition: background-color 0.2s;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 15px;
+    
+}
+@media screen and (min-width: 700px) {
+    
+    .nav ul li {
+            display: inline-block;
+            border-bottom: 0px;
+            
+            
+        }
+    }
+
+    img {
+        width: 1900px;
+        margin: 0px;
+    }
