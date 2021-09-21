@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(236, 189, 171);
+    
+}
+
+.titleHead {
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    padding: auto;
+    margin: auto;
+}
+
+
+
+.ingDiv {
+    display: flex;
+}
